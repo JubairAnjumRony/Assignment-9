@@ -5,7 +5,7 @@ const Newsletter = () => {
         <section
           className="bg-gray-50"
           style={{
-            backgroundImage: "url(/newsletterBg.svg)",
+            backgroundImage: "url('https://i.ibb.co.com/Mc5ydHn/ai-generated-8131432-1280.png')",
           }}
         >
           <div className="p-8 md:p-12 lg:px-16 lg:py-24  ">
