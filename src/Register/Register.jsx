@@ -37,45 +37,7 @@ const Register = () => {
            return ;
           }
 
-       // Password validation regex for individual checks
-      //  const passwordLengthRegex = /^.{6,}$/;
-      //  const passwordLowercaseRegex = /[a-z]/;
-      //  const passwordUppercaseRegex = /[A-Z]/;
-      //  const passwordNumberRegex = /\d/;
-      //  const passwordSpecialCharRegex = /[@$!%*?&]/;
-
-      //  setError(""); // Clear previous errors
-
-      //  // Password checks
-      //  if (!passwordLengthRegex.test(password)) {
-      //      setError("Password must be at least 6 characters long.");
-      //      return;
-      //  }
-
-      //  if (!passwordLowercaseRegex.test(password)) {
-      //      setError("Password must contain at least one lowercase letter.");
-      //      return;
-      //  }
-
-      //  if (!passwordUppercaseRegex.test(password)) {
-      //      setError("Password must contain at least one uppercase letter.");
-      //      return;
-      //  }
-
-      //  if (!passwordNumberRegex.test(password)) {
-      //      setError("Password must contain at least one number.");
-      //      return;
-      //  }
-
-      //  if (!passwordSpecialCharRegex.test(password)) {
-      //      setError("Password must contain at least one special character (@$!%*?&).");
-      //      return;
-      //  }
-
-      //  if (!checkbox) {
-      //      setError("You must agree to the terms and conditions.");
-      //      return;
-      //  }
+  
        
     
 
