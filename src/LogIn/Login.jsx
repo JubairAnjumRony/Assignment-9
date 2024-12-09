@@ -74,7 +74,7 @@ const Login = () => {
                 </p>
               </div>
             </form>
-            <p className='p-2 text-center mb-2'>New to this Website.Please<Link to ="/register">Register</Link></p>
+            <p className='p-2 text-center mb-2'>New to this Website.Please<Link to ="/register"><span className="text-red-400"> Register</span></Link></p>
           </div>
         </div>
       </div>
