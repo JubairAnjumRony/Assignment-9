@@ -5,16 +5,14 @@ import { createUserWithEmailAndPassword,
 import  { createContext, useEffect, useState } from 'react';
 import { auth } from '../Firebase/firebase.init';
 import { GoogleAuthProvider } from "firebase/auth";
-// import { GoogleAuthProvider } from 'firebase/auth/web-extension';
+
 
  export const AuthContext = createContext(null);
  const googleProvider = new GoogleAuthProvider();
  const AuthProvider = ({children}) => {
     const [user,setUser] =useState(null);
     const [loading,setLoading] = useState(true);
-    // const authInfo = {
-    //     name: 'sakib khan is number one ....',
-    // const name ="context api";
+  
         const createUser = (email,password) =>{
             setLoading(true);
             return createUserWithEmailAndPassword(auth,email,password);
@@ -42,7 +40,7 @@ import { GoogleAuthProvider } from "firebase/auth";
             const unsubscribe =onAuthStateChanged(auth,(currentUser) =>{
                 console.log("user",currentUser)
                 setUser(currentUser);
-                setLoading(true);
+                setLoading(false);
             })
         
 
@@ -50,8 +48,8 @@ import { GoogleAuthProvider } from "firebase/auth";
         },[])
 
         const signOutUser = ()=>{
-            return signOut(auth);
             setLoading(true);
+            return signOut(auth);
         }
 
     //     const updateUserProfile = (name, photo) => {
@@ -75,6 +73,7 @@ import { GoogleAuthProvider } from "firebase/auth";
 
 
     const updateUserProfile = (updatedData) => {
+        setLoading(true);
         return updateProfile(auth.currentUser, updatedData);
       };
         

@@ -6,7 +6,7 @@ const PrivateRoute = ({children}) => {
     const {user,loading} = useContext(AuthContext);
 
     if(loading){
-        <span className="loading loading-dots loading-xs"></span> 
+       return <span className="loading loading-dots loading-xs"></span> 
     }
 
     if(user){
