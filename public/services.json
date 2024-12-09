@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "image": "https://example.com/images/career_counseling.jpg",
+      "serviceName": "Career Counseling Sessions",
+      "category": "Online",
+      "description": "One-on-one career guidance tailored to your goals and aspirations.",
+      "pricing": "$50 per session",
+      "duration": "05-12-24 5:00 PM - 6:00 PM",
+      "counselor": "John Doe",
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/images/resume_review.jpg",
+      "serviceName": "Resume Review",
+      "category": "Offline",
+      "description": "Professional review of your resume to enhance its impact.",
+      "pricing": "$25",
+      "duration": "06-12-24 2:00 PM - 2:30 PM",
+      "counselor": "Jane Smith",
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/images/interview_preparation.jpg",
+      "serviceName": "Interview Preparation",
+      "category": "Group",
+      "description": "Interactive group session to prepare for job interviews.",
+      "pricing": "$40 per participant",
+      "duration": "07-12-24 6:00 PM - 7:30 PM",
+      "counselor": "Alex Johnson",
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/images/job_search.jpg",
+      "serviceName": "Job Search Strategy",
+      "category": "Online",
+      "description": "Learn how to effectively search and apply for jobs.",
+      "pricing": "$30 per session",
+      "duration": "08-12-24 4:00 PM - 5:00 PM",
+      "counselor": "Emily Davis",
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/images/networking_tips.jpg",
+      "serviceName": "Networking Tips and Tricks",
+      "category": "Offline",
+      "description": "Master the art of professional networking to advance your career.",
+      "pricing": "$35",
+      "duration": "09-12-24 3:00 PM - 4:30 PM",
+      "counselor": "Michael Brown",
+      "rating": 4.9
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/images/skill_assessment.jpg",
+      "serviceName": "Skill Assessment",
+      "category": "Group",
+      "description": "Evaluate your current skill set and identify areas for improvement.",
+      "pricing": "$20 per participant",
+      "duration": "10-12-24 1:00 PM - 2:00 PM",
+      "counselor": "Sarah Wilson",
+      "rating": 4.4
+    },
+    {
+      "id": 7,
+      "image": "https://example.com/images/public_speaking.jpg",
+      "serviceName": "Public Speaking Workshop",
+      "category": "Group",
+      "description": "Improve your public speaking and presentation skills.",
+      "pricing": "$45 per participant",
+      "duration": "11-12-24 5:30 PM - 7:30 PM",
+      "counselor": "David Lee",
+      "rating": 4.8
+    },
+    {
+      "id": 8,
+      "image": "https://example.com/images/confidence_building.jpg",
+      "serviceName": "Confidence Building",
+      "category": "Online",
+      "description": "Boost your confidence to achieve professional success.",
+      "pricing": "$30 per session",
+      "duration": "12-12-24 6:00 PM - 7:00 PM",
+      "counselor": "Olivia Martinez",
+      "rating": 4.7
+    },
+    {
+      "id": 9,
+      "image": "https://example.com/images/team_management.jpg",
+      "serviceName": "Team Management Skills",
+      "category": "Offline",
+      "description": "Learn essential skills to manage and lead teams effectively.",
+      "pricing": "$60",
+      "duration": "13-12-24 3:00 PM - 5:00 PM",
+      "counselor": "Chris Taylor",
+      "rating": 4.9
+    },
+    {
+      "id": 10,
+      "image": "https://example.com/images/work_life_balance.jpg",
+      "serviceName": "Work-Life Balance Coaching",
+      "category": "Online",
+      "description": "Strategies to maintain a healthy work-life balance.",
+      "pricing": "$40 per session",
+      "duration": "14-12-24 7:00 PM - 8:00 PM",
+      "counselor": "Sophia Anderson",
+      "rating": 4.6
+    }
+  ]
+  
