@@ -1,4 +1,8 @@
 import { Helmet } from "react-helmet";
+import Services from "./Services";
+import Newsletter from "./Newsletter";
+import WhyChooseUs from "./WhyChooseUs";
+import HeroSlider from "./HeroSlider";
 
 
 const Home = () => {
@@ -9,6 +13,7 @@ const Home = () => {
                 <title>Home-carrer Hub</title>
                 <link rel="canonical" href="http://mysite.com/example"/>
             </Helmet>
+{/*             
             <div className="carousel w-full">
   <div id="item1" className="carousel-item w-full">
     <img
@@ -36,10 +41,23 @@ const Home = () => {
   <a href="#item2" className="btn btn-xs">2</a>
   <a href="#item3" className="btn btn-xs">3</a>
   <a href="#item4" className="btn btn-xs">4</a>
-</div>
+</div> */}
+      <div>
+        <HeroSlider></HeroSlider>
+      </div>
 
-
+          <div><Services></Services></div>
+       <div>
+        <Newsletter></Newsletter>
         </div>
+
+        <div>
+          <WhyChooseUs/>
+        </div>
+
+
+    </div>
+
     );
 };
 

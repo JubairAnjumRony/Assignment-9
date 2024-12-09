@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "https://example.com/images/career_counseling.jpg",
+      "image": "https://i.ibb.co.com/C1Qr9kZ/ladder-of-success-6585235-1280.png",
       "serviceName": "Career Counseling Sessions",
       "category": "Online",
       "description": "One-on-one career guidance tailored to your goals and aspirations.",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "image": "https://example.com/images/resume_review.jpg",
+      "image": "https://i.ibb.co.com/R26N6XD/undraw-Process-re-gws7.png",
       "serviceName": "Resume Review",
       "category": "Offline",
       "description": "Professional review of your resume to enhance its impact.",
@@ -23,7 +23,7 @@
     },
     {
       "id": 3,
-      "image": "https://example.com/images/interview_preparation.jpg",
+      "image": "https://i.ibb.co.com/PNxZfw2/undraw-Interview-re-e5jn.png",
       "serviceName": "Interview Preparation",
       "category": "Group",
       "description": "Interactive group session to prepare for job interviews.",
@@ -34,7 +34,7 @@
     },
     {
       "id": 4,
-      "image": "https://example.com/images/job_search.jpg",
+      "image": "https://i.ibb.co.com/hLBbWcy/undraw-Success-factors-re-ce93.png",
       "serviceName": "Job Search Strategy",
       "category": "Online",
       "description": "Learn how to effectively search and apply for jobs.",
@@ -45,7 +45,7 @@
     },
     {
       "id": 5,
-      "image": "https://example.com/images/networking_tips.jpg",
+      "image": "https://i.ibb.co.com/Mc5ydHn/ai-generated-8131432-1280.png",
       "serviceName": "Networking Tips and Tricks",
       "category": "Offline",
       "description": "Master the art of professional networking to advance your career.",
@@ -56,7 +56,7 @@
     },
     {
       "id": 6,
-      "image": "https://example.com/images/skill_assessment.jpg",
+      "image": "https://i.ibb.co.com/2cCNPmn/undraw-Resume-re-hkth.png",
       "serviceName": "Skill Assessment",
       "category": "Group",
       "description": "Evaluate your current skill set and identify areas for improvement.",
@@ -67,7 +67,7 @@
     },
     {
       "id": 7,
-      "image": "https://example.com/images/public_speaking.jpg",
+      "image": "https://i.ibb.co.com/0t9Y8Vr/undraw-Conference-speaker-re-1rna.png",
       "serviceName": "Public Speaking Workshop",
       "category": "Group",
       "description": "Improve your public speaking and presentation skills.",
@@ -78,7 +78,7 @@
     },
     {
       "id": 8,
-      "image": "https://example.com/images/confidence_building.jpg",
+      "image": "https://i.ibb.co.com/RNX3Mym/undraw-career-progress-ivdb.png",
       "serviceName": "Confidence Building",
       "category": "Online",
       "description": "Boost your confidence to achieve professional success.",
@@ -89,7 +89,7 @@
     },
     {
       "id": 9,
-      "image": "https://example.com/images/team_management.jpg",
+      "image": "https://i.ibb.co.com/4N724ZN/undraw-Engineering-team-a7n2.png",
       "serviceName": "Team Management Skills",
       "category": "Offline",
       "description": "Learn essential skills to manage and lead teams effectively.",
@@ -100,7 +100,7 @@
     },
     {
       "id": 10,
-      "image": "https://example.com/images/work_life_balance.jpg",
+      "image": "https://i.ibb.co.com/vhSyWCg/undraw-Schedule-re-2vro.png",
       "serviceName": "Work-Life Balance Coaching",
       "category": "Online",
       "description": "Strategies to maintain a healthy work-life balance.",

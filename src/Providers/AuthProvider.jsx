@@ -1,5 +1,5 @@
 import { createUserWithEmailAndPassword, 
-     onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, 
+     onAuthStateChanged, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut, 
      updateProfile} from 'firebase/auth';
 
 import  { createContext, useEffect, useState } from 'react';
@@ -76,14 +76,17 @@ import { GoogleAuthProvider } from "firebase/auth";
         setLoading(true);
         return updateProfile(auth.currentUser, updatedData);
       };
-        
+
+      function resetPass(email) {
+        return sendPasswordResetEmail(auth, email);
+      }
         
         const  authInfo = {
           
             loading,
             signInWithGoogle,
             createUser,signInUser,user,setUser,signOutUser,
-            updateUserProfile
+            updateUserProfile,resetPass
         }
     
     return (

@@ -24,6 +24,7 @@ const Navbar = () => {
      {
       user && <>
       <li><NavLink to ="/profile">MyProfile</NavLink></li>
+      <li><NavLink to ="/latestBlogs">LatestBlogs</NavLink></li>
      
       </>
     }
@@ -64,7 +65,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end flex gap-4">
      
-
+{/* 
           {user && user?.email ? (
             <div className="flex flex-col gap-2">
               <img className="w-10 rounded-full" src={user?.photoURL} alt="" />
@@ -72,8 +73,8 @@ const Navbar = () => {
             </div>
           ) : (
             <img src={ ''} alt="" />
-          )}
-        {/* </div> */}
+          )} 
+        </div>
         {user && user?.email ? (
           <button   onClick={signOutUser} className="btn btn-neutral rounded-none">
            signOut
@@ -82,10 +83,42 @@ const Navbar = () => {
           <Link to="/login" className="btn btn-neutral rounded-none">
             Login
           </Link>
-        )}
+        )} */}
+
+{user && user?.email ? (
+  <div className="relative group">
+   
+    <img
+      className="w-10 h-10 rounded-full cursor-pointer"
+      src={user?.photoURL}
+      alt="User Avatar"
+      title="Profile Picture"
+    />
+
+    <div className="absolute left-0 w-max px-2 py-1 bg-gray-700 text-white text-sm rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+      {user?.displayName}
+    </div>
+  </div>
+) : (
+  <img src={''} alt="" />
+)} 
 
 
-        </div>
+   {user && user?.email ? (
+  <button
+    onClick={signOutUser}
+    className="btn btn-neutral rounded-none ml-4"
+  >
+    Sign Out
+  </button>
+   ) : (
+  <Link to="/login" className="btn btn-neutral rounded-none ml-4">
+    Login
+  </Link>
+)}
+
+
+</div>
        </div>
     );
 };
