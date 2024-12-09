@@ -42,7 +42,7 @@ const Home = () => {
   <a href="#item3" className="btn btn-xs">3</a>
   <a href="#item4" className="btn btn-xs">4</a>
 </div> */}
-      <div >
+      <div  className="mt-3">
         <HeroSlider></HeroSlider>
       </div>
 
