@@ -20,7 +20,7 @@ const Service = ({service}) => {
           <span className="font-semibold">Counselor: </span>
           {counselor}
         </p>
-        <div className="card-actions mt-4">
+        <div className="card-actions mt-4 ">
           <Link
             to={`/services/${id}`}
           

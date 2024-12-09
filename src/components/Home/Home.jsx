@@ -42,11 +42,11 @@ const Home = () => {
   <a href="#item3" className="btn btn-xs">3</a>
   <a href="#item4" className="btn btn-xs">4</a>
 </div> */}
-      <div>
+      <div >
         <HeroSlider></HeroSlider>
       </div>
 
-          <div><Services></Services></div>
+          <div className="w-8/10 mx-auto"><Services></Services></div>
        <div>
         <Newsletter></Newsletter>
         </div>
